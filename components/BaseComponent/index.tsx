@@ -6,7 +6,6 @@ import styles from './BaseComponent.module.css';
 
 // Interfaces & Types
 interface BaseComponentProps {
-  children?: JSX.Element;
   className?: string;
 }
 type BaseComponent = FunctionComponent<BaseComponentProps>;
